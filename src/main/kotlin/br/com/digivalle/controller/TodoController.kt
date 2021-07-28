@@ -7,7 +7,7 @@ import io.micronaut.http.annotation.Get
 import io.micronaut.http.annotation.Post
 import javax.inject.Inject
 
-@Controller
+@Controller("/todos")
 class TodoController(private val todoRepository: TodoRepository) {
 
     @Get
