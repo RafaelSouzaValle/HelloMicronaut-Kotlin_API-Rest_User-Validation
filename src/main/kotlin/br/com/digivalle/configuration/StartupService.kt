@@ -1,4 +1,4 @@
-package br.com.digivalle
+package br.com.digivalle.configuration
 
 import br.com.digivalle.domain.User
 import br.com.digivalle.repository.UserRepository
